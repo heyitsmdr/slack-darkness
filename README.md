@@ -18,7 +18,7 @@ Append the following to the bottom:
 ```
 function getAndAppend(url) {
   $.ajax({
-    url: url,
+    url: url + '?ts=' + Date.now(),
     success: function(css) {
       $("<style></style>").appendTo('head').html(css);
       

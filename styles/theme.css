@@ -5,11 +5,11 @@ span.c-mrkdwn__mention:hover, ts-message .mention:hover { color: #f00 !important
 button.c-mrkdwn__user_group--link { background: #363636; border: 1px solid #545454; color: #e6e6e6; border-radius: 3px; }
 button.c-mrkdwn__user_group--link:hover { background: #424242; color: #e6e6e6; }
 /* @user-group mentions for groups you are a part of */
-button.c-mrkdwn__user_group--mention { background-color: #cc48fb; color: #230038; border-color: #53036f; }
-button.c-mrkdwn__user_group--mention:hover { background-color: #bc00ff !important; color: #230038; }
+button.c-mrkdwn__user_group--mention { background-color: #49f36f; color: #230038; border-color: #047b16; }
+button.c-mrkdwn__user_group--mention:hover { background-color: #64e480 !important; color: #230038; }
 /* @mention's that are you */
-a.c-member_slug--mention { background-color: #cc48fb; color: #230038; border-color: #53036f; }
-a.c-member_slug--mention:hover { background-color: #bc00ff !important; }
+a.c-member_slug--mention { background-color: #49f36f; color: #230038; border-color: #49f36f; }
+a.c-member_slug--mention:hover { background-color: #64e480 !important; }
 /* message reply bar */
 div.c-message__reply_bar:hover { border-color: #333; }
 span.c-message__reply_bar_view_thread { background-color: #212121 !important; padding-left:3px; border-radius:2px; transition: all .2s ease-in-out; }
