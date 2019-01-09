@@ -1,0 +1,22 @@
+{
+  "name": "slack-darkness",
+  "version": "1.0.0",
+  "description": "A dark theme for Slack.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "lessc --include-path=styles styles/theme.less generated/theme.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyitsmdr/slack-darkness.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyitsmdr/slack-darkness/issues"
+  },
+  "homepage": "https://github.com/heyitsmdr/slack-darkness#readme",
+  "dependencies": {
+    "less": "^3.9.0"
+  }
+}

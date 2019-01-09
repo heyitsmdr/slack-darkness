@@ -16,19 +16,13 @@ Open the following file:
 Append the following to the bottom:
 
 ```
-function getAndAppend(url) {
+document.addEventListener('DOMContentLoaded', function() {
   $.ajax({
-    url: url + '?ts=' + Date.now(),
+    url: 'https://raw.githubusercontent.com/heyitsmdr/slack-darkness/master/generated/theme.css?ts=' + Date.now(),
     success: function(css) {
       $("<style></style>").appendTo('head').html(css);
-      
     }
   });
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-  getAndAppend('https://raw.githubusercontent.com/heyitsmdr/slack-darkness/master/styles/base.css')
-  getAndAppend('https://raw.githubusercontent.com/heyitsmdr/slack-darkness/master/styles/theme.css')
 });
 ```
 
