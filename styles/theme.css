@@ -1,3 +1,6 @@
-/* @Mention colors */
-span.c-mrkdwn__mention{ background: #383838; color: #fff !important; padding: 2px 4px; border-radius: 3px; }
+/* @mention's that are not you */
+span.c-mrkdwn__mention, button.c-mrkdwn__user_group { background: #383838; color: #fff !important; padding: 2px 4px; border-radius: 3px; }
+span.c-mrkdwn__mention:hover, button.c-mrkdwn__user_group { background: #585858; color: #fff !important; }
+/* @mention's that are you */
+span.c-mrkdwn__mention { background: #383838; color: #fff !important; padding: 2px 4px; border-radius: 3px; }
 span.c-mrkdwn__mention:hover { background: #585858; color: #fff !important; }
