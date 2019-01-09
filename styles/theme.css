@@ -1,6 +1,6 @@
 /* highlight words mentioned */
-span.c-mrkdwn__mention { background: #fbbcbc !important; color: #f00 !important; padding: 2px 4px; border-radius: 3px; }
-span.c-mrkdwn__mention:hover { color: #f00 !important; }
+span.c-mrkdwn__mention, ts-message .mention { background: transparent !important; color: #f00 !important; padding: 0px; font-weight: bold; }
+span.c-mrkdwn__mention:hover, ts-message .mention:hover { color: #f00 !important; }
 /* @user-group mentions that you are not in */
 button.c-mrkdwn__user_group--link { background: #363636; border: 1px solid #545454; color: #e6e6e6; border-radius: 3px; }
 button.c-mrkdwn__user_group--link:hover { background: #424242; color: #e6e6e6; }

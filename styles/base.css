@@ -1026,8 +1026,6 @@ ts-message .meta.msg_inline_img_toggler .msg_inline_media_toggler, ts-message .m
 
 ts-message .pinned_item_message_header { color: #949494; }
 
-ts-message .mention { background: #828282 !important; color: #e6e6e6 !important; }
-
 ts-message .internal_member_link { background: #222 !important; border: 0; color: #949494 !important; }
 
 ts-message .internal_member_link:hover { color: #c7c7c7 !important; }
