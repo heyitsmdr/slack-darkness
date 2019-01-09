@@ -1,6 +1,15 @@
-/* @mention's that are not you */
-span.c-mrkdwn__mention, button.c-mrkdwn__user_group { background: #383838 !important; color: #fff !important; padding: 2px 4px; border-radius: 3px; }
-span.c-mrkdwn__mention:hover, button.c-mrkdwn__user_group:hover { background: #585858 !important; color: #fff !important; }
+/* highlight words mentioned */
+span.c-mrkdwn__mention { background: #fbbcbc !important; color: #f00 !important; padding: 2px 4px; border-radius: 3px; }
+span.c-mrkdwn__mention:hover { color: #f00 !important; }
+/* @user-group mentions that you are not in */
+button.c-mrkdwn__user_group--link { background: #363636; border: 1px solid #545454; color: #e6e6e6; border-radius: 3px; }
+button.c-mrkdwn__user_group--link:hover { background: #424242; color: #e6e6e6; }
+/* @user-group mentions for groups you are a part of */
+button.c-mrkdwn__user_group--mention { background-color: #cc48fb; color: #230038; border-color: #53036f; }
+button.c-mrkdwn__user_group--mention:hover { background-color: #bc00ff !important; color: #230038; }
 /* @mention's that are you */
-span.c-mrkdwn__mention { background: #383838; color: #fff !important; padding: 2px 4px; border-radius: 3px; }
-span.c-mrkdwn__mention:hover { background: #585858; color: #fff !important; }
+a.c-member_slug--mention { background-color: #cc48fb; color: #230038; border-color: #53036f; }
+a.c-member_slug--mention:hover { background-color: #bc00ff !important; }
+/* message reply bar */
+div.c-message__reply_bar:hover { border-color: #333; }
+span.c-message__reply_bar_view_thread { background-color: #212121 !important; padding-left:3px; border-radius:2px; transition: all .2s ease-in-out; }
