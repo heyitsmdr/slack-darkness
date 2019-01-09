@@ -1,0 +1,3 @@
+/* @Mention colors */
+span.c-mrkdwn__mention{ background: #383838; color: #fff !important; padding: 2px 4px; border-radius: 3px; }
+span.c-mrkdwn__mention:hover { background: #585858; color: #fff !important; }
