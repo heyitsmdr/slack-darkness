@@ -7850,6 +7850,10 @@ comments {
 /************************
  * SLACK DARKNESS THEME *
  ************************/
+/* sidebar */
+div.p-channel_sidebar__static_list {
+  background-color: #1d1d1d;
+}
 /* highlight words mentioned */
 span.c-mrkdwn__mention,
 ts-message .mention {

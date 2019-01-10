@@ -29,6 +29,18 @@ document.addEventListener('DOMContentLoaded', function() {
 > Note: You will need to do this every time Slack is updated, since this file will be overriden.
 > An automated method is coming soon.
 
-## Improvements
+## Development
 
-Please feel free to create a PR. Only modify the `theme.css` file, as the `base.css` file is what this theme derived from, which should remain untouched.
+Please feel free to create a PR and contribute!
+
+### Testing Changes
+
+It's easiest to go to your Slack workplace in Chrome and open the Chrome 
+Developer Tools. You can paste the following in the console to start working on styling locally:
+
+```
+$('<link href="http://127.0.0.1:8080/theme.css" rel="stylesheet" type="text/css" id="slack-darkness-css">').appendTo('head');
+setInterval(function(){ $("#slack-darkness-css")[0].href = "http://127.0.0.1:8080/theme.css?ts=" + Date.now() }, 1000);
+```
+
+This will load the LESS-generated stylesheet locally and refresh it every second to allow your changes to show up near-immediately.
